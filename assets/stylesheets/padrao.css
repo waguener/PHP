@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: 50% 0;
+	background-attachment: fixed;
+  text-shadow: 1px 1px 0 black;
+	
+}
+header{
+	top: 0;
+	background: #2d3e50;
+	height: 80px;
+	width: 1100px;
+	position: fixed;
+	z-index: 10;
+}
+label{
+	cursor: pointer;
+}
+h3{
+	padding: 10px;
+}
+h2{
+	padding: 10px;
+	text-align: center;
+}
+form{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form #senha, #email, #nome{
+  height: 5%;
+  width: 100%;
+}
+
+form input {
+  padding: 10px;
+  border: none;
+}
+
+form input:hover {
+  background-color: #cccccc;
+}
+
+form #entrar, #limpar,#voltar, #cadastrar{
+  border: none;
+  background-color: #4d92bb;
+  color: white;
+  padding: 10px;
+
+}
+.logo-cadastro{
+  text-align: center;
+}
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.button {
+  border: none;
+  background-color: #4d92bb;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+  
+
+
+}
+.voltar {
+  border: none;
+  background-color: #4d92bb;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: arial;
+
+}
+
+.tabela {
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+
+}
+
+.tabela input {
+  max-width: 300px;
+  padding: 10px;
+  border:none;
+}
+
+.tabela input:hover {
+  background-color: #ccc;
+}
+
+.tabela input:focus {
+  border: 1px solid red;
+}
+.pagina{
+	max-width: 1101px;
+	margin: 0 auto;
+	border: 1px solid #2d3e50;
+	background-color: rgba(0, 0, 0, 0.6);
+	
+}
+
+#imagem-logo{
+	width: 150px;
+	height: 100px;
+}
+.logo{
+	margin-top: 10px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 50%;
+	border-bottom: 5px solid #2d3e50;
+}
+.menu{
+	list-style-type: none;
+	margin-right: 10px;
+}
+.menu li{
+	display: inline-block;
+}
+.botao:hover{
+	border-bottom: 5px solid black;
+	border-radius: 10px;
+	color: white;
+	transition: all 320ms;
+}
+.botao{
+	float: right;
+	margin-top: 20px;
+	padding: 10px;
+	opacity: 0.7;
+	color: white;
+}
+.redes-sociais{
+	opacity: 0.6;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-radius: 10px;
+}
+.redes-sociais img{
+	height: 18px;
+	width: 18px;
+}
+.redes-sociais{
+	background: white;
+}
+.menu .redes-sociais{
+	top: 100%;
+	left: 0;
+	right: 0;
+	transform: translateY(-150%);
+}
+.redes-sociais:hover{
+	opacity: 1;
+	background: white;
+	transition: all 400ms;
+}
+.imagens{
+	width: 100%;
+	overflow: hidden;
+}
+.imagens-home{
+	width: 100%;
+	overflow: hidden;
+}
+.imagens-home img{
+	width: 100%;
+}
+.imagens img{
+	width: 100%;
+}
+.sections{
+	opacity: 0;
+	max-height:0;
+	overflow: hidden;
+	transition: all 390ms;
+}
+#box-recuperar{
+  margin-left: 40%;
+  margin-top: 80px;
+}
+.checkbox{
+	display: none;
+}
+
+.sections{
+	overflow: overlay;
+}
+.sections2{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+[name="sections2"]:checked + .sections2{
+  opacity: 1;
+
+
+}
+
+[name="sections"]{
+	opacity: 0;
+	visibility: hidden;
+
+}
+
+[name="sections"]:checked + .sections{
+	opacity: 1;
+	max-height: 2000000px;
+	display: block;
+	overflow: overlay;
+	visibility: visible;
+}
+.sub-titulo-home{
+	text-align: center;
+	margin-top: 70px;
+  padding-bottom: 10px;
+}
+.paragrago-home{
+	text-indent: 50px;
+	text-align: justify;
+	margin-bottom: 10px;
+  padding: 0 100px 0 100px;
+}
+.texto{
+	padding-bottom: 5px;
+	text-indent: 20px;
+	text-align: justify;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+
+.texto-recuperar a{
+  text-decoration: none;
+  color: white;
+}
+.botao-clique{
+	margin-right: 10px;
+	border-radius: 10px;
+	background-color: #2d3e50;
+	padding: 10px;
+	color: black;
+}
+.botao-clique:hover{
+	color: white;
+}
+.recuperar{
+  width: 50%;
+}
+
+.naoencontrado{
+  color: orange;
+}
+/*caixas entrar, cadastrar, ranking*/
+    .card {
+    	margin-left: 45px;
+    	float: left;
+    	display: inline-flex;
+    	position: relative;
+    	width: 300px;
+    	height: 380px;
+    	opacity: 0.85;
+    }
+    .front,
+    .back {
+    	width: 100%;
+    	height: 100%;
+    	position: absolute;
+    	backface-visibility: hidden;
+    	transition: transform 300ms;
+    	transition-timing-function: linear;
+    	border-radius: 5px;
+    }
+    .front {
+    	tranform: rotateY(0deg);
+    	background: linear-gradient(to bottom right, #2d3e50, #009970);
+    	text-align: center;
+    	padding: 30px;
+    }
+    .back {
+    	background: linear-gradient(to bottom right, black, #2d3e50);
+    	transform: rotateY(180deg);
+    	padding: 40px 15px;
+    	color: #fff;
+    }
+    .card:hover .front {
+    	transform: rotateY(-180deg);
+    }
+    .card:hover .back {
+    	transform: rotateY(0deg);
+    }
+
+    .front .contact {
+    	height: 120px;
+    	width: 120px;
+    	border: 5px solid #B2DBBF;
+    	border-radius: 50%;
+    	display: inline-block;
+    	margin-bottom: 10px;
+    }
+    .front .name {
+    	display: inline-block;
+    	font-size: 18px;
+    	color: #fff;
+    }
+    .front .job {
+    	color: #fff;
+    }
+    .front hr {
+    	border: none;
+    	color: #B2DBBF;
+    	border: 1px solid;
+    }
+    .back .icon {
+    	fill: currentColor;
+    	color: inherit;
+    	height: 33px;
+    	width: 33px;
+    	margin-top: 15px;
+    	color: white;
+    }
+    .back .icon:hover {
+    	cursor: pointer;
+    	color: #648767;
+    }

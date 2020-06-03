@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+	background-image: url(wallpaper-login.png);
+}
+h1 {
+	display: block;
+	margin: 0 auto;
+}
+
+
+.header img {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.corpo {
+	border: 1px solid black;
+	margin: 0 auto;
+
+} 
+
+.conteudo {
+	background-color: rgba(0,0,0,0.1);
+	
+}
+
+.caixa {
+
+	height: auto;
+
+}
+
+.caixa img {
+	margin: 0	 auto;
+	height: 40%;
+	width: 15%;
+}
+
+#imagem1 {
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+}
+
+#imagem2 {
+	margin: 0 auto;
+	padding: 0 0 80px 0;
+}
+
+
+.barra ul li a{
+	text-decoration: none;
+	color: white;
+
+
+}
+.barra ul {
+	padding: 0 0 0 10px;
+	text-decoration: none;
+	color: white;
+	text-align: justify;
+
+}
+.barra ul li {
+	display: inline;
+
+}
+.barra ul li img {
+	height: 2%;
+	width: 2%;
+	padding: 10px 0 0 0;
+}
+
+.barra {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.footer {
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+
+.card {
+    	margin-left: 65px;
+    	float: left;
+    	display: inline-flex;
+    	position: relative;
+    	width: 280px;
+    	height: 280px;
+    	opacity: 0.85;
+    }
+    .front,
+    .back {
+    	width: 100%;
+    	height: 100%;
+    	position: absolute;
+    	backface-visibility: hidden;
+    	transition: transform 300ms;
+    	transition-timing-function: linear;
+    	border-radius: 5px;
+    }
+    .front {
+    	tranform: rotateY(0deg);
+    	background: linear-gradient(to bottom right, #2d3e50, #009970);
+    	text-align: center;
+    	padding: 30px;
+    }
+    .back {
+    	background: linear-gradient(to bottom right, black, #2d3e50);
+    	transform: rotateY(180deg);
+    	padding: 40px 15px;
+    	color: #fff;
+    }
+    .card:hover .front {
+    	transform: rotateY(-180deg);
+    }
+    .card:hover .back {
+    	transform: rotateY(0deg);
+    }
+
+    .front .contact {
+    	height: 120px;
+    	width: 120px;
+    	border: 5px solid #B2DBBF;
+    	border-radius: 50%;
+    	display: inline-block;
+    	margin-bottom: 10px;
+    }
+    .front .name {
+    	display: inline-block;
+    	font-size: 18px;
+    	color: #fff;
+    }
+    .front .job {
+    	color: #fff;
+    }
+    .front hr {
+    	border: none;
+    	color: #B2DBBF;
+    	border: 1px solid;
+    }
+    .back .icon {
+    	fill: currentColor;
+    	color: inherit;
+    	height: 100px;
+    	width: 33px;
+    	margin-top: 15px;
+    	color: white;
+    }
+    .back .icon:hover {
+    	cursor: pointer;
+    	color: #648767;
+    }

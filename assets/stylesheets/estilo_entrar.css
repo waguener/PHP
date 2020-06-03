@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arima Madurai', cursive;
+	background: #cccccc;
+	text-align: center;
+	color: white;
+	background-image: url(wallpaper-login.png);
+}
+
+span {
+	color: black;
+}
+
+h1 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+h6 {
+	font-family: arial;
+	font-size: 10px;
+	color: white;
+}
+
+h6 a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	padding-bottom: 20px;
+}
+
+.header img {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+}
+
+.barra {
+	height: 45px;
+	width: auto;
+	background-color: rgba(0,0,0,0.5);
+	padding: 0 0 0 10px;
+}
+
+.caixa {
+	background-color: rgba(0,0,0,0.6);
+	max-width: 400px;
+	border-radius: 30px;
+	margin: 0 auto;
+
+}
+.caixa:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.barra ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+.barra ul {
+	text-decoration: none;
+	color: white;
+	text-align: justify;
+}
+
+.barra ul li {
+	display: inline;
+
+}
+
+.barra ul li img {
+	height: 2%;
+	width: 2%;
+	padding: 10px 0 0 0;
+}
+
+.footer {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#botao_entrar {
+	border: 0px;
+	background: transparent;
+	padding: 10px 0 0 0;
+}
+
+form{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+form #senha, #email{
+	border-radius: 5px;
+	height: 5%;
+	width: 50%;
+}
+
+form img {
+	width: 30%;	
+}
+
+form input {
+	padding: 10px;
+	border: none;
+}
+
+form input:hover {
+	background-color: #cccccc;
+}
+
+form #entrar, #limpar,#voltar, #cadastrar{
+	border-radius: 20px;
+	width: 30%;
+	border: none;
+	background-color: #4d92bb;
+	color: white;
+	padding: 10px;
+
+}
+
+
+
+
+
+

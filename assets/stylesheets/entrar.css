@@ -1,0 +1,75 @@
+span {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+h6 a {
+  text-decoration: none;
+  color: white;
+}
+
+.caixa {
+  background-color: rgba(0,0,0,0.6);
+  max-width: 400px;
+  border-radius: 30px;
+  margin: 0 auto;
+
+}
+.caixa:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#botao_entrar {
+  border: 0px;
+  background: transparent;
+  padding: 10px 0 0 0;
+}
+
+form{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form #senha, #email{
+  border-radius: 5px;
+  height: 5%;
+  width: 50%;
+}
+
+form img {
+  width: 30%; 
+}
+
+form input {
+  padding: 10px;
+  border: none;
+}
+
+form input:hover {
+  background-color: #cccccc;
+}
+
+form #entrar, #limpar,#voltar, #cadastrar{
+  border-radius: 20px;
+  width: 30%;
+  border: none;
+  background-color: #4d92bb;
+  color: white;
+  padding: 10px;
+
+}
+
+
+
+
+
+

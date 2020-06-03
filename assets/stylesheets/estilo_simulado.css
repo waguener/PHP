@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: 50% 0;
+	background-attachment: fixed;
+  text-shadow: 1px 1px 0 black;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	
+}
+
+.simulado {
+
+	display: block;
+}
+
+form {
+	
+	padding: 15px;
+}
+
+ .form input {
+	text-align: center;
+}
+
+button {
+	float: right;
+	padding: 10px;
+	margin-right: 370px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+
+
+.header img {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+}
+.barra {
+	height: 45px;
+	width: auto;
+	background: transparent;
+	padding: 0 0 0 10px;
+}
+.conteudo {
+		background-color: rgba(0,0,0,0.3);
+		padding-top: 20px;
+		padding-bottom: 20px;
+	
+}
+
+.conteudo:after  {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.simulado {
+		border-radius: 10px;
+		background-color: rgba(0, 0, 0,0.8);
+		max-width: 600px;
+		display: block;
+		margin: 0 auto;
+}
+
+.barra {
+	height: 45px;
+	width: auto;
+	background: transparent;
+	padding: 0 0 0 10px;
+}
+.barra ul li a{
+	text-decoration: none;
+	color: white;
+		
+
+}
+.barra ul {
+
+	text-decoration: none;
+	color: white;
+	text-align: justify;
+
+}
+.barra ul li {
+	display: inline;
+
+}
+.barra ul li img {
+	height: 2%;
+	width: 2%;
+	padding: 10px 0 0 0;
+}
+#contador {
+	float: right;
+	font-family: arial;
+	color: red;
+	font-size: 30px;
+
+}
+
+
+.footer {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+}
+
+		

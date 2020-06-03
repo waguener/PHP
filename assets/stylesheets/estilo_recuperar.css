@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arima Madurai', cursive;
+	background: #cccccc;
+	text-align: center;
+	color: black;
+	background-image: url(wallpaper-login.png);
+}
+
+h1 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+	color: black;
+}
+
+h6 {
+	font-family: arial;
+	font-size: 10px;
+	color: white;
+}
+
+.header img {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+}
+
+.barra {
+	height: 45px;
+	width: auto;
+	background-color: rgba(0,0,0,0.5);
+	padding: 0 0 0 10px;
+	margin-top: 20px;
+}
+
+.caixa {
+	background-color: rgba(211, 211, 211, 0.5);
+	max-width: 400px;
+	height: 300px;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+
+}
+.caixa:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 40px;
+
+}
+
+table td{
+	padding: 10px;
+	
+}
+
+table input {
+	max-width: 500px;
+	padding: 10px;
+	border:none;
+}
+
+table #recuperar, #limpar, #voltar {
+	border: none;
+	border-radius: 20px;
+	background-color: #4d92bb;
+	color: white;
+}
+
+table input:hover {
+	background-color: #ccc;
+}
+
+table input:focus {
+	border: 1px solid red;
+}
+.barra ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+.barra ul {
+	text-decoration: none;
+	color: white;
+	text-align: justify;
+}
+
+.barra ul li {
+	display: inline;
+
+}
+
+.barra ul li img {
+	height: 2%;
+	width: 2%;
+	padding: 10px 0 0 0;
+}
+
+.footer {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+}

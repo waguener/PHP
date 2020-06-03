@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Arima Madurai', cursive;
+	background-image: url(wallpaper-login.png) ;
+}
+
+h1 {
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h5 {
+	text-align: center;
+}
+
+h6 {
+	font-family: arial;
+	font-size: 10px;
+	color: black;
+}
+
+label {
+	color: black;
+	font-family: arial;
+	padding-left: 13%;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+p a{
+	text-decoration: none;
+	color: red;
+}
+
+
+
+.header {
+	padding-bottom: 20px;
+}
+
+.header img {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+}
+
+.barra {
+	height: 45px;
+	width: auto;
+	background-color: rgba(0,0,0,0.5);
+	padding: 0 0 0 10px;
+}
+
+.conteudo {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.conteudo:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 50%;
+	background-color: rgba(211, 211, 211, 0.5);
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+.caixa input {
+	margin: 0 auto;
+	background-color: #ccc;
+	border:none;
+	max-width: 500px;
+	padding: 10px;
+	border: 1px solid red;
+}
+
+.tabela {
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.tabela input {
+	max-width: 500px;
+	padding: 10px;
+	border:none;
+}
+
+.tabela input:hover {
+	background-color: #ccc;
+}
+
+.tabela input:focus {
+	border: 1px solid red;
+}
+
+.barra ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.barra ul {
+	text-decoration: none;
+	color: white;
+	text-align: justify;
+}
+
+.barra ul li {
+	display: inline;
+} 
+
+.barra ul li img {
+	height: 2%;
+	width: 2%;
+	padding: 10px 0 0 0;
+}
+
+.footer {
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	padding: 20px;
+}

@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Arima Madurai', cursive;
+	text-align: justify;
+	background-image: url(wallpaper-login.png);
+}
+
+h1 {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+span {
+	
+}
+
+button {
+	border: 0px;
+	background: transparent;
+	float: right;
+
+
+}
+
+button img {
+	max-width: 50px;
+	padding: 0 0 0 50px;
+}
+
+p {
+	text-indent: 50px;
+	
+}
+
+form {
+	text-align: center;
+
+}
+
+form #enviar {
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #474747;
+	color: white;
+}
+
+.header img {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.conteudo {
+	
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.conteudo:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.barra {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.barra ul li a{
+	text-decoration: none;
+	color: white;
+		
+
+}
+.barra ul {
+	padding: 0 0 0 10px;
+	text-decoration: none;
+	color: white;
+	text-align: justify;
+
+}
+.barra ul li {
+	display: inline;
+
+}
+.barra ul li img {
+	height: 2%;
+	width: 2%;
+	padding: 10px 0 0 0;
+}
+
+.footer {
+
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+
